@@ -12,7 +12,7 @@ async function checkSymptom() {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            symptom: symptom
+            symptoms: symptom
         })
     });
 
